@@ -1,7 +1,7 @@
 ## Base Types
 ### Fractions
 Create a function what takes two parameters of string type which are 
-fractions and returns a sum expression of these fractions and the sum result.
+fractions with the same denominator and returns a sum expression of these fractions and the sum result.
 For example:
 ```python
 >>> a_b = '1/3'
