@@ -11,4 +11,11 @@ def get_fractions(a_b: str, c_b: str) -> str:
     >>> get_fractions(a_b, c_b)
     '1/3 + 5/3 = 6/3'
     """
-    return ''
+    return (
+        a_b
+        + " + "
+        + c_b
+        + " = {}/{}".format(
+            int(a_b.split("/")[0]) + int(c_b.split("/")[0]), a_b.split("/")[-1]
+        )
+    )
